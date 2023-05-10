@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,700;1,400&display=swap");
+* {
+    margin: 0;
+    font-family: "Roboto Condensed", sans-serif;
+}
+h1{
+    font-size: 60px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.sombreado{
+    color: red;
+    text-shadow: X-offset Y-offset blur color;
+    background-color: yellow;
+}
+
+.body {
+    font-size: 12px;
+}
+
+.catalogo {
+    display: flex;
+    flex-direction: column;
+    background: rgb(2, 0, 36);
+    background: linear-gradient( 9deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 27%, rgba(161, 6, 43, 0.7287289915966386) 49%, rgba(0, 212, 255, 1) 100%);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url(/Imagenes/photo-1630161861535-b39e5635da68.avif);
+    background-repeat: repeat;
+    background-size: 33%;
+}
+
+.ficha-producto {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: left;
+    background-color:white;
+    width: 450px;
+    border-radius: 16px;
+    margin-top: 16px;
+    padding-left: 16px;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.nombre {
+    font-size: 32px;
+    font-weight: 700;
+    margin-top: 24px;
+}
+
+img{
+    justify-content: center;
+}
+
+.precio {
+    margin-top: 12px;
+    font-size: 24px;
+    font-weight: 700;
+    color: blue;
+}
+
+.cantidad {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 700;
+    color: royalblue;
+}
+
+.descripcion {
+    font-size: 16px;
+    color: rgb(20, 25, 41);
+    margin: 16px;
+    margin-left: 0px;
+}
+
+.foto {
+    width: 80%;
+    padding: 8px;
+    border-radius: 25px;
+}
+
+.btn {
+    font-size: 16px;
+    color: rgb(20, 25, 41);
+    margin: 16px;
+    font-size: 16px;
+    color: rgb(20, 25, 41);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 25px;
+    width: 10rem;
+}
+
+.btn:hover {
+    background-color: green;
+    font-weight: 700;
+    color: white;
+}
+
